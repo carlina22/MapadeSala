@@ -1,10 +1,11 @@
-﻿using System;
+﻿using MapadeSala;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MapadeSala
+namespace mapa_de_sala
 {
     static class Program
     {
@@ -16,8 +17,7 @@ namespace MapadeSala
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Professor());
-            Console.WriteLine("Hello World!!");
+            Application.Run(new Principal());
         }
     }
 }
